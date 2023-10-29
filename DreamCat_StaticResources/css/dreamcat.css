@@ -80,7 +80,7 @@
     justify-content: center;
 }
 
-.DreamCat-Logo-centered > img {
+.DreamCat-Logo-centered>img {
     margin: -50px 0 0;
     left: 0;
 }
@@ -119,7 +119,7 @@
     margin-bottom: 0;
 }
 
-.Dreamcat-post-copyright.mdui-card > svg {
+.Dreamcat-post-copyright.mdui-card>svg {
     height: 120px;
     opacity: .05;
     pointer-events: none;
@@ -129,7 +129,7 @@
     width: 120px;
 }
 
-.Dreamcat-post-copyright > div {
+.Dreamcat-post-copyright>div {
     border-left: 5px solid #f5f5f5;
     padding: 16px;
 }
@@ -140,7 +140,7 @@
     width: 100%;
 }
 
-.Dreamcat-post-btn > button {
+.Dreamcat-post-btn>button {
     height: 60px;
     width: 60px;
 }
@@ -203,7 +203,7 @@
     transform: scale(1.2);
 }
 
-.DreamCat-PageContent-A{
+.DreamCat-PageContent-A {
     overflow: hidden;
     padding: 15px;
     margin: 10px 0;
@@ -377,8 +377,8 @@
 }
 
 pre {
-    background: rgb(198,198,203) !important;
-    background: linear-gradient(13deg, rgba(198,198,203,1) 7%, rgba(233,233,246,1) 100%) !important;
+    background: #B2DFDB !important;
+    background: linear-gradient(13deg, #B2DFDB 7%, #E0F2F1 100%) !important;
     /*background-color: #fafafa !important;*/
     border-radius: 12px !important;
     padding: 12px 16px !important;

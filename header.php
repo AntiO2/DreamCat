@@ -47,7 +47,7 @@
     <?php $this->header('commentReply='); ?>
 </head>
 
-<body class="mdui-drawer-body mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class="mdui-drawer-body mdui-theme-primary-indigo mdui-theme-teal">
 <style>
     @font-face {
         font-family: CustomFont;
