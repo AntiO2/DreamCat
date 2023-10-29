@@ -6,8 +6,7 @@
 
             <div style="display: flex;flex-direction: column;line-height: 2;color: #000;">
                 <?php if (!empty($this->options->icpba)): ?>
-                    <a target="_blank" style="color: black;background-color: transparent;text-decoration-line: none;"
-                       href="https://beian.miit.gov.cn/">互联网ICP备案：<?php $this->options->icpba() ?></a>
+                    <a target="_blank" style="color: black;background-color: transparent;text-decoration-line: none;" href="https://beian.miit.gov.cn/">互联网ICP备案：<?php $this->options->icpba() ?></a>
                 <?php endif; ?>
                 <span><?php $this->options->DC_WebCustomFooter(); ?></span>
                 <span>Copyright © <?php echo date('Y'); ?> <?php $this->options->DC_WebName(); ?>.</span>
@@ -132,7 +131,21 @@
 <script>
     hljs.initHighlightingOnLoad();
 </script>
-
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath:  [ ["$", "$"], ],
+      displayMath: [ ["$$","$$"],],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"
+   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 <?php if (is_array($this->options->DC_GlobalApp) && in_array('DCShowClickEffect', $this->options->DC_GlobalApp)): ?>
     <script
